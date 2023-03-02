@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(52, 52, 52);
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.animacion {
+    display: none;
+}
+
+.info {
+    display: flex;
+    background-color: rgb(65, 65, 65);
+    margin: 50px 100px;
+    padding: 30px;
+    border-radius: 20px;
+    justify-content: space-between;
+}
+
+.foto-datos {
+    display: flex;
+    gap: 100px;
+}
+
+.image {
+    max-width: 250px;
+    max-height: 250px;
+    border-radius: 250px;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 20px;
+    color: aqua;
+}
+
+.datos {
+    color: white;
+}
+
+.icons {
+    color: white;
+}
+
+.icons:hover {
+    color: yellow;
+}
